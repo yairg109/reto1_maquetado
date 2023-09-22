@@ -1,4 +1,4 @@
-body {
+html {
   margin: 0;
 }
 
@@ -10,9 +10,10 @@ body {
   border-width: 1px;
   border-radius: 7px;
   font-size: 16px;
-  padding: 7px 12px;
+  padding: 7px 10px;
   height: 40px;
-  width: 100%;
+  width: 150px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .btn-create:active {
@@ -21,11 +22,7 @@ body {
   text-decoration: underline;
 }
 
-nav {
-  padding: 2px 10px 5px 10px;
-}
-
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .contenedor-nav {
     display: flex;
     flex-direction: row;
@@ -46,28 +43,97 @@ nav {
     align-items: center;
     justify-content: end;
   }
+  .btn-search {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border-style: none;
+    background-color: rgba(225, 228, 230, 0.887);
+  }
   .img-devN {
     width: 50px;
     margin-left: 20px;
   }
-  .lupa {
-    margin-right: 10px;
-    width: 24px;
-  }
   .hamburguesa {
     width: 30px;
   }
+  .logIn {
+    display: none;
+  }
+  input {
+    display: none;
+  }
+  .lupa-input {
+    display: none;
+  }
 }
-@media (min-width: 667px) {
-  nav {
-    background-color: red;
+@media (min-width: 768px) {
+  .btn-create {
+    width: 150px;
+    font-size: 16px;
+  }
+  .logIn {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .lupa {
+    display: none;
   }
   .hamburguesa {
     display: none;
   }
-}
-@media (min-width: 907px) {
-  nav {
-    background-color: yellow;
+  .contenedor-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 22px;
+    border-bottom-style: ridge;
+    border-color: rgba(128, 128, 128, 0.158);
+  }
+  .img-devN {
+    width: 50px;
+    margin-right: 20px;
+  }
+  input {
+    width: 420px;
+    height: 39px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgb(205, 202, 202);
+    border-style: ridge;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-right: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .contenedor-izq {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  .contenedor-der {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .contenedor-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lupa-input {
+    position: relative;
+    right: 18%;
+  }
+  .btn-search {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
