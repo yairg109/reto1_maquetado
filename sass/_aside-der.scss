@@ -18,7 +18,16 @@ section{
 .space{
     margin-bottom: 40px;
 }
-
+.li-style{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    &:hover  {
+        background: rgba(0, 0, 0, 0.266);
+        border-radius: 7px;
+    }
+}
 .aside__first, .aside__second{
     background-color: rgb(255, 255, 255);
     padding-bottom: 60px;
