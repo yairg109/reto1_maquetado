@@ -28,7 +28,7 @@ section {
   padding-bottom: 60px;
   padding: 15px;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .aside__right--header {
@@ -193,9 +193,7 @@ section {
 }
 
 .aside-izq {
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .aside-izq-primero {
@@ -424,11 +422,11 @@ h3 {
   }
   .card-2 {
     width: 100vw;
-    padding: 12px;
+    padding: 16px;
   }
   .post-container {
-    width: 98vw;
-    padding: 10px 0px 10px 0px;
+    width: 99vw;
+    padding: 10px;
   }
 }
 @media (min-width: 768px) {
